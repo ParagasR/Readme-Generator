@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// TODO: Include packages needed for this application 
 const fs = require('fs');
 const inquirer = require('inquirer')
 const genMkdown = require('./utils/generateMarkdown.js');
@@ -51,7 +51,7 @@ function init(title, description, installation, usage, contributors, test, licen
             type: 'list',
             message: license,
             name: 'license',
-            choices: ['GPLv3', 'Ms-PL', 'MIT'],
+            choices: ['GPLv3', 'Mozilla', 'MIT', 'N/A'],
         },
         {
             type: 'input',
@@ -60,10 +60,10 @@ function init(title, description, installation, usage, contributors, test, licen
         },
     ])
     .then((data) => {
+        console.log(data);
         writeToFile('README.md', data);
     })
 }
-
 
 // Function call to initialize app
 init(...questions);
