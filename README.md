@@ -48,9 +48,7 @@ To run and test this project, navigate to this project's folder in your terminal
 When the user is prompted to open the editor, press the ENTER key to open your default editor. When the user is done, they will just close the file.
 When they are prompted to save, the user should save the file.
 
-Here is a video guide on the proper use of this readme:
-
-![guide](./assets/preview.mp4)
+Here is a [video](https://drive.google.com/file/d/1pbJnQfEjyKIJsHf_AMjjOOeCPx81hcNm/view?usp=sharing) guide on the proper use of this readme
 <br>
 
 
