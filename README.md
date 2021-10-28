@@ -45,12 +45,12 @@ Ryan Paragas
 
 To run and test this project, navigate to this project's folder in your terminal. Then run the command 'node index.js'
 
-When running this program, this is what the user will be prompted with: 
-
-![preview](./assets/images/preview.png)
-
 When the user is prompted to open the editor, press the ENTER key to open your default editor. When the user is done, they will just close the file.
 When they are prompted to save, the user should save the file.
+
+Here is a video guide on the proper use of this readme:
+
+![guide](./assets/preview.mp4)
 <br>
 
 
